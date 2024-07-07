@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c056f03510.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>SidebarMenu</title>
+  </head>
+  <body>
+    <header class="sidebarmenu-holder">
+      <div class="sidebar" id="sidebar">
+        <div class="logo">LOGO</div>
+        <div class="sidebar-menu">
+          <div class="separator-up"></div>
+          <a href="#">Home</a>
+          <a href="#">Products</a>
+          <a href="#">About Us</a>
+          <a href="#">Company</a>
+          <a href="#">Contacts</a>
+          <a href="#">FAQ</a>
+          <div class="separator-down"></div>
+          <div class="socials">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+        <button class="close-arrow" onclick="closeMenu()">
+          <i class="fa-solid fa-chevron-right arrow-icon"></i>
+        </button>
+      </div>
+    </header>
+    <button class="open-arrow" onclick="openMenu()">
+      <i class="fa-solid fa-arrow-right arrow-icon-open"></i>
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>
